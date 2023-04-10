@@ -1,0 +1,139 @@
+
+  
+  
+/* Estilos generales para todas las páginas */
+
+/* Logo */
+.logo {
+    display: inline-block;
+  }
+  
+  .logo img {
+    width: 200px;
+    height: auto;
+  }
+/* Reset de estilos */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Tipografía */
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-image: url(../imagenes/silas-baisch-f4bfvVXKZP8-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* Imagen de fondo */
+
+  img {
+    max-width: 100%;
+    height: auto;
+    filter: contrast(0.9);
+  }
+  
+  /* Barra de navegación */
+  nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1506dde9;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  nav a:hover,
+  nav a.active {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Contenido principal */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Encabezados */
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Texto */
+  p {
+    margin-bottom: 20px;
+  }
+  
+  /* Imágenes */
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para hacer las páginas responsive */
+  @media screen and (max-width: 768px) {
+    /* Barra de navegación */
+    nav {
+      flex-direction: column;
+    }
+    
+    nav a {
+      margin-bottom: 10px;
+    }
+    
+    /* Contenido principal */
+    main {
+      padding: 10px;
+    }
+    
+    /* Encabezados */
+    h1 {
+      font-size: 28px;
+    }
+    
+    h2 {
+      font-size: 20px;
+    }
+    
+    /* Texto */
+    p {
+      font-size: 16px;
+    }
+  }
+  
+  footer {
+    background-color: #1506dde9;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  
